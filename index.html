@@ -13,7 +13,20 @@
 </head>
 <body>
     <h1 id="header-text" class="text-center">Hakeem Wedding</h1>
-    <img class="image" src="https://aquila-style.com/wp-content/uploads/2019/12/Preparing-the-Muslim-Bride-1024x683.jpg" alt="">
+    <div class="container">
+        <div style="flex-grow: 1; flex: content;">
+            <img class="image" src="https://aquila-style.com/wp-content/uploads/2019/12/Preparing-the-Muslim-Bride-1024x683.jpg" alt="">
+        </div>
+        <div>
+            <h1>Reserve a Seat</h1>
+            <form action="" onsubmit="return enroll(event);">
+                <p>Name: <input type="text" name="name" id="name" required></p>
+                <p>Email Address: <input type="email" name="email" id="email" required></p>
+                <p>Phone Number: <input type="text" name="phone" id="phone" required></p>
+                <p><button type="submit">Submit</button></p>
+            </form>
+        </div>
+    </div>
     <div class="container">
         <div>
             <h1 class="text-center">Bride Statement</h1>
